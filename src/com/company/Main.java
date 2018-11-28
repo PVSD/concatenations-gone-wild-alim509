@@ -12,6 +12,11 @@ public class Main {
 
     private static String cat(int start, int end)
     {
-        //Code goes here
+        String s = "";
+        for (int i = start; i <= end; i++)
+        {
+            s += (char)(i);
+        }
+        return s;
     }
 }
